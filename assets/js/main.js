@@ -1,10 +1,4 @@
-window.onload = function () {
-
-var arr = document.querySelector("#one")
-
-console.log(arr)
-
-arr.addEventListener("click",function(){
+document.getElementById("one").addEventListener("click",function(){
 console.log(1)
 });
 document.getElementById("two").addEventListener("click",function(){
@@ -36,4 +30,3 @@ console.log(10)
 });
 
 
-}
