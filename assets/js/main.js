@@ -30,3 +30,14 @@ console.log(10)
 });
 
 
+
+document.getElementById("valider").addEventListener("click",function(){
+console.log("image valider")
+});
+document.getElementById("quitter").addEventListener("click",function(){
+console.log("image quitter")
+});
+
+
+
+
